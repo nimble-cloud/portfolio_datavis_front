@@ -1,0 +1,75 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Track */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* grey */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* darker grey */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* light grey */
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background: #444; /* even darker grey */
+}
+
+/* Firefox scrollbar */
+/* Track */
+::-moz-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+::-moz-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-moz-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle on active */
+::-moz-scrollbar-thumb:active {
+  background: #444;
+}
+
+/* Standard scrollbar (not supported in Safari) */
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Handle on active */
+::-webkit-scrollbar-thumb:active {
+  background: #444;
+}

@@ -1,0 +1,18 @@
+services:
+  dev_datavis_f:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ../../:/workspaces:cached
+      - node_modules_cache:/root/.npm
+    command: sleep infinity
+    networks:
+      - dev_network
+
+networks:
+  dev_network:
+    external: true
+
+volumes:
+  node_modules_cache:
